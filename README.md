@@ -1,56 +1,65 @@
-# Welcome to your Lovable project
+# Welcome to this project
 
 ## Project info
 
-**URL**: https://lovable.dev/projects/9baaf81a-4dae-433b-8952-778634413a47
+**Live URL**: https://ekusa-lmhb.vercel.app/
+
+---
 
 ## How can I edit this code?
 
-There are several ways of editing your application.
+There are several ways of editing this application.
 
-**Use Lovable**
+### Use your preferred IDE
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/9baaf81a-4dae-433b-8952-778634413a47) and start prompting.
+You can work locally using any IDE of your choice.
 
-Changes made via Lovable will be committed automatically to this repo.
+**Requirements**
+- Node.js
+- npm
 
-**Use your preferred IDE**
+(Recommended: install via nvm → https://github.com/nvm-sh/nvm)
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
+**Steps**
 
 ```sh
-# Step 1: Clone the repository using the project's Git URL.
+# Step 1: Clone the repository
 git clone <YOUR_GIT_URL>
 
-# Step 2: Navigate to the project directory.
+# Step 2: Navigate to the project directory
 cd <YOUR_PROJECT_NAME>
 
-# Step 3: Install the necessary dependencies.
-npm i
+# Step 3: Install dependencies
+npm install
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Step 4: Start the development server
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+The app will start with auto-reloading and an instant preview.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+---
 
-**Use GitHub Codespaces**
+### Edit directly on GitHub
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+- Navigate to the file you want to edit
+- Click the **Edit (✏️)** button
+- Make your changes
+- Commit the changes
 
-## What technologies are used for this project?
+---
+
+### Use GitHub Codespaces
+
+- Go to the repository main page
+- Click **Code**
+- Open the **Codespaces** tab
+- Click **New codespace**
+- Edit, commit, and push changes directly from the browser
+
+---
+
+## Technologies used
 
 This project is built with:
 
@@ -60,14 +69,47 @@ This project is built with:
 - shadcn-ui
 - Tailwind CSS
 
-## How can I deploy this project?
+---
 
-Simply open [Lovable](https://lovable.dev/projects/9baaf81a-4dae-433b-8952-778634413a47) and click on Share -> Publish.
+## Deployment
 
-## Can I connect a custom domain to my Lovable project?
+You can deploy this project on platforms such as:
 
-Yes, you can!
+- **Vercel**
+- **Render**
+- **Netlify**
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+### Typical deployment settings
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+- **Build command**
+  ```sh
+  npm run build
+  ```
+- **Output directory**
+  ```sh
+  dist
+  ```
+
+Steps:
+1. Push the project to GitHub
+2. Import the repository into your hosting platform
+3. Configure build settings
+4. Deploy
+
+---
+
+## Custom domain
+
+You can connect a custom domain through your hosting provider by:
+
+- Adding the domain in the dashboard
+- Updating DNS records (A / CNAME)
+- Enabling HTTPS
+
+Refer to your hosting provider’s documentation for detailed instructions.
+
+---
+
+## License
+
+This project is open for modification and extension as needed.
